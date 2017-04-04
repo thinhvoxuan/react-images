@@ -324,6 +324,8 @@ const classes = StyleSheet.create({
 	},
 	figure: {
 		margin: 0, // remove browser default
+		border: '20px solid white',
+      	borderRadius: 10
 	},
 	image: {
 		display: 'block', // removes browser default gutter

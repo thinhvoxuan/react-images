@@ -2018,8 +2018,10 @@ var classes = _aphroditeNoImportant.StyleSheet.create({
 		position: 'relative'
 	},
 	figure: {
-		margin: 0 },
-	// remove browser default
+		margin: 0, // remove browser default
+		border: '20px solid white',
+		borderRadius: 10
+	},
 	image: {
 		display: 'block', // removes browser default gutter
 		height: 'auto',
